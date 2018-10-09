@@ -1,0 +1,297 @@
+/* start nav */
+#search input[type="text"] {
+    background: grey;
+    /* border: 0 none; */
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    width: 150px;
+    height: 35px;
+    padding: 0 5px;
+    border-radius: 10px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    transition: all 0.7s ease 0s;
+    }
+
+#search input[type="text"]:focus {
+    width: 200px;
+}
+.sub-nav {
+    /* background: rgba(59, 185, 171, 0.8); */
+    background: rgb(0, 76, 35);
+}
+#main-nav {
+    background: url('/image/main-bg.jpg');
+}
+/* end nav */
+
+/* start advertisement */
+.adv-padding {
+    padding-top: 50px !important;
+}
+.adv-hr {
+    border: 1px solid rgb(0, 76, 35);
+}
+/* end advertisement */
+
+/* start all blog */
+.blog {
+    padding: 50px 0 10px;
+}
+.blog .header .header-up-hr {
+    border: 2px dotted green;
+    width: 100px;
+    margin-left: 0;
+}
+.blog .header .header-down-hr {
+    border: 2px dotted green;
+    width: 100px;
+    margin-right: 0;
+}
+.card-hr {
+    margin-top: 13px;
+    width: 150px;
+    border: 1px dotted green;
+}
+.card-title {
+    padding: 10px 0;
+    font-size: 20px !important;
+}
+.card-img {
+    width: 100%;
+    height: 200px !important;
+}
+.btn {
+    border-radius: 0;
+}
+.mybtn {
+    /* background: rgb(98, 199, 178); */
+    background: rgb(0, 76, 35);
+    box-shadow: inset 0 0 5px brown;
+}
+.mb {
+    margin-bottom: 10px;
+}
+.card-content p {
+    word-wrap: break-word;
+}
+p {
+    text-align: justify;
+    line-height: 25px;
+}
+.all-btn {
+    background: rgb(0, 76, 35);
+    border-radius: 5%;
+}
+.blog .not-cardheader {
+    font-size: 20px;
+}
+.hpadding {
+    padding-bottom: 10px;
+}
+.h {
+    padding-bottom: 10px;
+}
+.blog .btn:hover {
+    background: black;
+    color:white;
+    transition: background 1s;
+    border-color: white;
+}
+.mybtn:hover {
+    background: black;
+    color:white;
+    box-shadow: 0 0 5px black;
+    transition: box-shadow 3s;
+}
+/* end all blog */
+
+/* start blog1 */
+.blog1 .card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+}
+.blog1 .card-title {
+    background: rgb(0, 76, 35);
+    color: white;
+}
+/* end blog1 */
+
+/*start blog2*/
+.blog2 {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/image/my-bg1.jpg') no-repeat left bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* .blog2 .farming-img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 5px black;
+
+} */
+.padding {
+    padding: 0 3%;
+}
+.blog2 .mycard {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 5px black;
+}
+@media screen and (max-width: 600px) {
+    .blog2 .card-content {
+        width: 300px;
+    }
+    .blog4 .card {
+        width: 240px;
+    }
+    .blog4 .not-cardheader {
+        font-size: 17px;
+    }
+    .blog4 .card-image {
+        display: none;
+    }
+    .blog5 .card-content {
+        width: 300px;
+    }
+    .footer {
+        text-align: center;
+    }
+    .blog2 .card-image {
+        display: none;
+    }
+    .blog5 .card-image {
+        display: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    .h {
+        font-size: 17px;
+    }
+    .card-title {
+        font-size: 16px !important;
+    }
+    .blog2 .card-content {
+        width: 190px;
+    }
+    .blog .not-cardheader {
+        font-size: 16px;
+    }
+    .blog5 .card-content {
+        width: 190px;
+    }
+    .brand-logo {
+        display: block;
+    }
+    #search {
+        display: none;
+    }
+}
+/*end blog2*/
+
+/* start blog3 */
+.blog3 .card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+}
+.blog3 .card-title {
+    background: rgb(0, 76, 35);
+    color: white;
+}
+/* end blog3 */
+
+/*start blog4*/
+.blog4 {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/image/my-bg1.jpg') no-repeat left bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.blog4 .news-img {
+    border: 2px solid rgb(0, 76, 35);
+    box-shadow: 0 0 5px rgb(0, 76, 35);
+    border-radius: 3% !important;
+}
+.blog4 .card {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 5px black;
+}
+.news-hr {
+    width: 150px;
+    border: 2px dotted green;
+}
+/*end blog4*/
+
+/* start blog5 */
+.blog5 .question-img {
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(0, 76, 35);
+    box-shadow: 0 0 5px black !important;
+    border-radius: 100% !important;
+}
+.blog5 .card {
+    /* box-shadow: 0 3px 5px rgb(89, 199, 187), 3px 0 5px rgb(89, 199, 187), 0 -2px 5px black, -2px 0 5px black; */
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+}
+
+.error {
+  color: red;
+}
+/* end blog5 */
+
+/* start answer */
+
+.detail-img {
+  width: 100%;
+  min-height: 300px;
+}
+/* end answer */
+
+/* start carousel */
+
+    .first-child {
+        background: url('/image/slide1.jpg') no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .second-child {
+        background: url('/image/slide2.jpg') no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .third-child {
+        background: url('/image/slide3.jpg') no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .fourth-child {
+        background: url('/image/slide4.jpg') no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+/* end carousel */
+
+/* start footer */
+.footer {
+    background: rgba(33, 33, 33, 1);
+    color: white;
+    /* padding: 40px 0; */
+    margin-bottom: -20px;
+    min-height: 300px;
+}
+.fa-btn {
+    background: white;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    line-height: 50px;
+    border-radius: 100%;
+    color: green;
+}
+.fa-btn:hover {
+    background: green;
+    color:white;
+}
+/* end footer */

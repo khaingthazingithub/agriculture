@@ -1,0 +1,28 @@
+.error {
+  color: red;
+}
+
+.new-btn {
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  background: rgb(95, 124, 138);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.new-btn:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.table-img {
+  width: 100px;
+  height: 100px;
+}
+
+.adv-img {
+  width: 150px;
+
+}
